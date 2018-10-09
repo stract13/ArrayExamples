@@ -39,6 +39,13 @@ class Main
          * Task 2.  Create a new array called ar2.
          *          Copy the elements of ar1 into ar2.
          */
+        System.out.println("** ar2 **");
+        
+        for (int i=0 ; i<ar2.length ; i++)
+            ar2[i]=ar1[i];
+            
+        for (int i=0 ; i<ar2.length ; i++)
+            System.out.println("ar2[" +1+  "] = "+ar2[i]);
         
         
         /* 
